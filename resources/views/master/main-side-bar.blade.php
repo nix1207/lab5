@@ -27,7 +27,17 @@
                     <a href="{{ route('products.index') }}" class="nav-link">
                         <i class="nav-icon fas fa-th"></i>
                         <p>
-                            User
+                            Products
+                            <span class="right badge badge-danger">New</span>
+                        </p>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="{{ route('new.index') }}" class="nav-link">
+                        <i class="nav-icon fas fa-th"></i>
+                        <p>
+                            News
                             <span class="right badge badge-danger">New</span>
                         </p>
                     </a>

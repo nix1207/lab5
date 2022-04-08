@@ -1,4 +1,5 @@
 @extends('master.layout')
+@section('title', 'Products')
 @section('content')
     <div class="content-wrapper">
         <div class="content-header">

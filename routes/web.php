@@ -26,6 +26,6 @@ Route::prefix('products')->name('products.')->group(function ()
 });
 
 Route::prefix('news')->group(function(){
-    Route::get('/', [NewController::class, 'index']);
+    Route::get('/', [NewController::class, 'index'])->name('new.index');
 });
 
